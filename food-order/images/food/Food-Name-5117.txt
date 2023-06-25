@@ -1,0 +1,45 @@
+> X = crabs$FL
+> mu = mean(x)
+> sig = sd(x)
+>
+>
+
+print(paste('estimated average value is’, as.character(mu)))
+[1] "Estimated average value is 15.583"
+> print(paste('Estimated standard deviation is’, as.character(sig)))
+[1] “Estimated standard deviation is 3.4953250903796"
+
+> X = crabs$Rw*10
+
+>m=5
+
+>p=c()
+
+>we=c()
+
+> for(i in i:mf{
+
++ p[i] = pbinom(N/m*i,N, p_h)-pbinom(N/m*(i-1),N, p_h)
++ w[i] = sum(X>=N/m*(i-1) & X<=N/m*i)
++}
+
+>
+
+> chi_obs = sum((w-n*p)^2/p)
+
+> chi_obs
+
+>chi_alpha = qchisq(1-0.01/2,n-2)
+> chi_alpha
+
+> X= Crabs$RW 
+> library("car")
+
+> qqPlot(X)
+
+[1] 200 51
+
+>
+
+> shapiro. test (X)
+
